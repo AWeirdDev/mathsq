@@ -83,3 +83,6 @@ class MathSQ:
     ):
         a1 = value - (n - 1) * d
         return MathSQ(a1, d, ln)
+
+    def __repr__(self):
+        return f"[ <a_n>: {self.a1}, … (d={self.d}, 0<n<{self.ln}) ]"
