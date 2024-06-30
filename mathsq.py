@@ -34,7 +34,7 @@ class MathSQ:
         return self.mid()
 
     def has_mid(self) -> bool:
-        return self.mid().is_integer()
+        return not self.ln % 2
 
     def sum(self, __n: int) -> float:
         return self.mid() * self.ln
