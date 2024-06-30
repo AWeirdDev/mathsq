@@ -106,6 +106,20 @@ Find the closest $`n`$ index to 0.
 
 $$
 a_1 > 0, d < 0
+$$
+
+<div align="center">or</div>
+
+$$
 a_1 < 0, d > 0
+$$
+
+<div align="center">or</div>
+
+$$
 a_1 = 0
 $$
+
+```python
+>>> array0.where0()
+```
