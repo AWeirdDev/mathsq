@@ -99,4 +99,13 @@ Returns `True` if the middle index exists.
 >>> array1 * 10
 ```
 
+## Where 0 is at
+Find the closest $`n`$ index to 0.
 
+**Restrictions**:
+
+$$
+a_1 > 0, d < 0
+a_1 < 0, d > 0
+a_1 = 0
+$$
